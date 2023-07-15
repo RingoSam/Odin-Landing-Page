@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.first {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px; 
+    padding-right: 64px;
+    padding-bottom: 64px;
+}
+
+.header {
+    display: flex;
+    flex: ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin-bottom: 64px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+a, p {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    gap: 36px;
+}
+
+.hero {
+    flex: 1;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.subtext {
+    margin-top: 0;
+}
+
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    background-color: grey;
+}
+
+button {
+    padding: 8px 30px;
+    color: #e5e7eb;
+    font-weight: 900;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding-left: 64px; 
+    padding-right: 64px;
+    padding-top: 32px;
+ 
+}
+
+h1.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 4px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 6px;
+    padding: 16px;
+    margin: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.sub-box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    color: #1f2937;
+}
+
+.quotes {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 108px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p.text-quote, .thor {
+    margin: 0;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    width: 850px;
+    color: #1f2937;
+}
+
+.thor {
+    text-align: end;
+    font-weight: bolder;
+    font-style: normal;
+}
