@@ -13,6 +13,7 @@ body {
     padding-left: 64px; 
     padding-right: 64px;
     padding-bottom: 64px;
+    padding-top: 32px;
 }
 
 .header {
@@ -162,4 +163,45 @@ p.text-quote, .thor {
     text-align: end;
     font-weight: bolder;
     font-style: normal;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 96px 0px;
+}
+
+h1.call-action {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sign-up {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 156px;
+    gap: 167px;
+}
+    
+h2, h5 {
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+.sign-up-botton button{
+    border: white;
+    border-style: solid;
+    border-color: white;
 }
