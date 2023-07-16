@@ -10,10 +10,11 @@ body {
     color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding-left: 64px; 
-    padding-right: 64px;
+    padding-left: 220px; 
+    padding-right: 220px;
     padding-bottom: 64px;
     padding-top: 32px;
+    justify-content: center;
 }
 
 .header {
@@ -62,6 +63,7 @@ a, p {
     font-weight: 900;
     margin-bottom: 0px;
     margin-top: 0px;
+
 }
 
 .subtext {
@@ -152,7 +154,7 @@ h1.information {
 
 p.text-quote, .thor {
     margin: 0;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     font-size: 36px;
     width: 850px;
@@ -163,6 +165,7 @@ p.text-quote, .thor {
     text-align: end;
     font-weight: bolder;
     font-style: normal;
+    font-size: 20px;
 }
 
 .call {
